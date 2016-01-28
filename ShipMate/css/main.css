@@ -79,3 +79,78 @@ a:hover, a:active {
 	text-decoration: none;
 }
 
+.mainHeader nav a:hover, .mainHeader nav a:active,
+.mainHeader nav .active a:link, .mainHeader nav .active a:visited {
+	background: #0775ff;
+	color: #fff;
+	text-shadow: none !important;
+}
+
+.mainHeader nav li a {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+/* Content */
+
+.mainContent {
+	overflow: hidden;
+	line-height: 25px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
+}
+
+.productContent {
+	background-color: #d4fff9;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 3% 5%;
+}
+
+.content {
+	width: 68%;
+	float: left;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+/* Sidebar */
+
+.about {
+	width: 24%;
+	float: left;
+	margin-left: 2%;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
+	background-color: #d4fff9;
+	padding: 2% 3%;
+}
+
+.post-info {
+	font-style: italic;
+	font-size: 85%;
+}
+
+/* Footer */
+
+.mainFooter {
+	width: 100%;
+	float: left;
+	margin: 2% 0 2% 0;
+	padding-left: 0;
+	background: #08b0ff;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;		
+}
+
+.mainFooter p {
+	width: 91%;
+	margin: 2% auto;
+	color: #fff;
+}
